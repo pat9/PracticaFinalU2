@@ -17,7 +17,7 @@ namespace PracticasU2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Ejercicio2GUI());
+            Application.Run(new frm_Ejercicio3GUI());
         }
     }
 }

@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.grb_Libros = new System.Windows.Forms.GroupBox();
-            this.chk_Libro1 = new System.Windows.Forms.CheckBox();
-            this.chk_Libro2 = new System.Windows.Forms.CheckBox();
-            this.chk_Libro3 = new System.Windows.Forms.CheckBox();
-            this.chk_Libro4 = new System.Windows.Forms.CheckBox();
             this.chk_Libro5 = new System.Windows.Forms.CheckBox();
+            this.chk_Libro4 = new System.Windows.Forms.CheckBox();
+            this.chk_Libro3 = new System.Windows.Forms.CheckBox();
+            this.chk_Libro2 = new System.Windows.Forms.CheckBox();
+            this.chk_Libro1 = new System.Windows.Forms.CheckBox();
             this.lbl_NumLib = new System.Windows.Forms.Label();
             this.lbl_Total = new System.Windows.Forms.Label();
             this.txt_NumLib = new System.Windows.Forms.TextBox();
@@ -58,38 +58,16 @@
             this.grb_Libros.Text = "Libros";
             this.grb_Libros.Enter += new System.EventHandler(this.grb_Libros_Enter);
             // 
-            // chk_Libro1
+            // chk_Libro5
             // 
-            this.chk_Libro1.AutoSize = true;
-            this.chk_Libro1.Location = new System.Drawing.Point(7, 20);
-            this.chk_Libro1.Name = "chk_Libro1";
-            this.chk_Libro1.Size = new System.Drawing.Size(84, 17);
-            this.chk_Libro1.TabIndex = 0;
-            this.chk_Libro1.Text = "Oracle $250";
-            this.chk_Libro1.UseVisualStyleBackColor = true;
-            this.chk_Libro1.CheckedChanged += new System.EventHandler(this.chk_Libro1_CheckedChanged);
-            // 
-            // chk_Libro2
-            // 
-            this.chk_Libro2.AutoSize = true;
-            this.chk_Libro2.Location = new System.Drawing.Point(7, 43);
-            this.chk_Libro2.Name = "chk_Libro2";
-            this.chk_Libro2.Size = new System.Drawing.Size(76, 17);
-            this.chk_Libro2.TabIndex = 1;
-            this.chk_Libro2.Text = "Java $150";
-            this.chk_Libro2.UseVisualStyleBackColor = true;
-            this.chk_Libro2.CheckedChanged += new System.EventHandler(this.chk_Libro2_CheckedChanged);
-            // 
-            // chk_Libro3
-            // 
-            this.chk_Libro3.AutoSize = true;
-            this.chk_Libro3.Location = new System.Drawing.Point(6, 66);
-            this.chk_Libro3.Name = "chk_Libro3";
-            this.chk_Libro3.Size = new System.Drawing.Size(67, 17);
-            this.chk_Libro3.TabIndex = 2;
-            this.chk_Libro3.Text = "C# $300";
-            this.chk_Libro3.UseVisualStyleBackColor = true;
-            this.chk_Libro3.CheckedChanged += new System.EventHandler(this.chk_Libro3_CheckedChanged);
+            this.chk_Libro5.AutoSize = true;
+            this.chk_Libro5.Location = new System.Drawing.Point(6, 110);
+            this.chk_Libro5.Name = "chk_Libro5";
+            this.chk_Libro5.Size = new System.Drawing.Size(89, 17);
+            this.chk_Libro5.TabIndex = 4;
+            this.chk_Libro5.Text = "Node.js $160";
+            this.chk_Libro5.UseVisualStyleBackColor = true;
+            this.chk_Libro5.CheckedChanged += new System.EventHandler(this.chk_Libro5_CheckedChanged);
             // 
             // chk_Libro4
             // 
@@ -102,16 +80,38 @@
             this.chk_Libro4.UseVisualStyleBackColor = true;
             this.chk_Libro4.CheckedChanged += new System.EventHandler(this.chk_Libro4_CheckedChanged);
             // 
-            // chk_Libro5
+            // chk_Libro3
             // 
-            this.chk_Libro5.AutoSize = true;
-            this.chk_Libro5.Location = new System.Drawing.Point(6, 110);
-            this.chk_Libro5.Name = "chk_Libro5";
-            this.chk_Libro5.Size = new System.Drawing.Size(89, 17);
-            this.chk_Libro5.TabIndex = 4;
-            this.chk_Libro5.Text = "Node.js $160";
-            this.chk_Libro5.UseVisualStyleBackColor = true;
-            this.chk_Libro5.CheckedChanged += new System.EventHandler(this.chk_Libro5_CheckedChanged);
+            this.chk_Libro3.AutoSize = true;
+            this.chk_Libro3.Location = new System.Drawing.Point(6, 66);
+            this.chk_Libro3.Name = "chk_Libro3";
+            this.chk_Libro3.Size = new System.Drawing.Size(67, 17);
+            this.chk_Libro3.TabIndex = 2;
+            this.chk_Libro3.Text = "C# $300";
+            this.chk_Libro3.UseVisualStyleBackColor = true;
+            this.chk_Libro3.CheckedChanged += new System.EventHandler(this.chk_Libro3_CheckedChanged);
+            // 
+            // chk_Libro2
+            // 
+            this.chk_Libro2.AutoSize = true;
+            this.chk_Libro2.Location = new System.Drawing.Point(7, 43);
+            this.chk_Libro2.Name = "chk_Libro2";
+            this.chk_Libro2.Size = new System.Drawing.Size(76, 17);
+            this.chk_Libro2.TabIndex = 1;
+            this.chk_Libro2.Text = "Java $150";
+            this.chk_Libro2.UseVisualStyleBackColor = true;
+            this.chk_Libro2.CheckedChanged += new System.EventHandler(this.chk_Libro2_CheckedChanged);
+            // 
+            // chk_Libro1
+            // 
+            this.chk_Libro1.AutoSize = true;
+            this.chk_Libro1.Location = new System.Drawing.Point(7, 20);
+            this.chk_Libro1.Name = "chk_Libro1";
+            this.chk_Libro1.Size = new System.Drawing.Size(84, 17);
+            this.chk_Libro1.TabIndex = 0;
+            this.chk_Libro1.Text = "Oracle $250";
+            this.chk_Libro1.UseVisualStyleBackColor = true;
+            this.chk_Libro1.CheckedChanged += new System.EventHandler(this.chk_Libro1_CheckedChanged);
             // 
             // lbl_NumLib
             // 
@@ -183,7 +183,7 @@
             this.Controls.Add(this.lbl_NumLib);
             this.Controls.Add(this.grb_Libros);
             this.Name = "frm_Ejercicio2GUI";
-            this.Text = "frm_Ejercicio2";
+            this.Text = "Libros";
             this.grb_Libros.ResumeLayout(false);
             this.grb_Libros.PerformLayout();
             this.ResumeLayout(false);

@@ -128,7 +128,7 @@
             this.Controls.Add(this.lbl_Y);
             this.Controls.Add(this.lbl_X);
             this.Name = "frm_Ejercicio3GUI";
-            this.Text = "frm_Ejercicio3GUI";
+            this.Text = "Calcular Ecuacion";
             this.ResumeLayout(false);
             this.PerformLayout();
 

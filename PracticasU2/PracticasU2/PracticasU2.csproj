@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="BO\Ejercicio2BO.cs" />
     <Compile Include="BO\Ejercicio3BO.cs" />
+    <Compile Include="BO\Ejercicio4BO.cs" />
+    <Compile Include="BO\Ejercicio6BO.cs" />
     <Compile Include="BO\Ejercicio9BO.cs" />
     <Compile Include="BO\SalarioTrabjadorBO.cs" />
     <Compile Include="GUI\Form1.cs">
@@ -74,6 +76,18 @@
     <Compile Include="GUI\frm_Ejercicio4GUI.Designer.cs">
       <DependentUpon>frm_Ejercicio4GUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frm_Ejercicio5GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio5GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio5GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio6GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio6GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio6GUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frm_SalarioTrabajadorGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +105,15 @@
     <EmbeddedResource Include="GUI\frm_Ejercicio3GUI.resx">
       <DependentUpon>frm_Ejercicio3GUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio4GUI.resx">
+      <DependentUpon>frm_Ejercicio4GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio5GUI.resx">
+      <DependentUpon>frm_Ejercicio5GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio6GUI.resx">
+      <DependentUpon>frm_Ejercicio6GUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_SalarioTrabajadorGUI.resx">
       <DependentUpon>frm_SalarioTrabajadorGUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +125,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,6 +139,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mesa de trabajo 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mesa de trabajo 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mesa de trabajo 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mesa de trabajo 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mesa de trabajo 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mesa de trabajo 6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

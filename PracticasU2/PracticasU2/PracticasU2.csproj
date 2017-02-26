@@ -50,6 +50,7 @@
     <Compile Include="BO\Ejercicio3BO.cs" />
     <Compile Include="BO\Ejercicio4BO.cs" />
     <Compile Include="BO\Ejercicio6BO.cs" />
+    <Compile Include="BO\Ejercicio7BO.cs" />
     <Compile Include="BO\Ejercicio9BO.cs" />
     <Compile Include="BO\SalarioTrabjadorBO.cs" />
     <Compile Include="GUI\Form1.cs">
@@ -57,6 +58,12 @@
     </Compile>
     <Compile Include="GUI\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio10GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio10GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio10GUI.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frm_Ejercicio2GUI.cs">
       <SubType>Form</SubType>
@@ -94,6 +101,12 @@
     <Compile Include="GUI\frm_Ejercicio7GUI.Designer.cs">
       <DependentUpon>frm_Ejercicio7GUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frm_Ejercicio8GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio8GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio8GUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frm_SalarioTrabajadorGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +117,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio10GUI.resx">
+      <DependentUpon>frm_Ejercicio10GUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio2GUI.resx">
       <DependentUpon>frm_Ejercicio2GUI.cs</DependentUpon>
@@ -122,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio7GUI.resx">
       <DependentUpon>frm_Ejercicio7GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio8GUI.resx">
+      <DependentUpon>frm_Ejercicio8GUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_SalarioTrabajadorGUI.resx">
       <DependentUpon>frm_SalarioTrabajadorGUI.cs</DependentUpon>
@@ -150,22 +169,52 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mesa de trabajo 1.png" />
+    <None Include="Resources\Dados\Dado1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mesa de trabajo 2.png" />
+    <None Include="Resources\Dados\Dado2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mesa de trabajo 3.png" />
+    <None Include="Resources\Dados\Dado3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mesa de trabajo 4.png" />
+    <None Include="Resources\Dados\Dado4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mesa de trabajo 5.png" />
+    <None Include="Resources\Dados\Dado5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mesa de trabajo 6.png" />
+    <None Include="Resources\Dados\Dado6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DO%28C%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A002.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A008.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articulos\A010.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using PracticasU2.Properties;
 using System.IO;
+using System.Windows.Forms;
 
 namespace PracticasU2.BO
 {
@@ -80,13 +81,13 @@ namespace PracticasU2.BO
         
         public Image MostrarDado1()
         {
-            DadoImg = imagenes[dado1];
+            DadoImg = (Bitmap)(Resources.ResourceManager.GetObject("Dado" + dado1));
             return DadoImg;
         }
 
         public Image MostrarDado2()
         {
-            DadoImg = imagenes[dado2];
+            DadoImg = (Bitmap)(Resources.ResourceManager.GetObject("Dado" + dado2));
             return DadoImg;
         }
 

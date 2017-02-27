@@ -51,6 +51,7 @@
     <Compile Include="BO\Ejercicio4BO.cs" />
     <Compile Include="BO\Ejercicio6BO.cs" />
     <Compile Include="BO\Ejercicio7BO.cs" />
+    <Compile Include="BO\Ejercicio8BO.cs" />
     <Compile Include="BO\Ejercicio9BO.cs" />
     <Compile Include="BO\SalarioTrabjadorBO.cs" />
     <Compile Include="GUI\Form1.cs">

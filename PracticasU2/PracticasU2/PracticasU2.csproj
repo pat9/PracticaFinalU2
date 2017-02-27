@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BO\CartaBO.cs" />
     <Compile Include="BO\Ejercicio2BO.cs" />
     <Compile Include="BO\Ejercicio3BO.cs" />
     <Compile Include="BO\Ejercicio4BO.cs" />
@@ -108,6 +109,12 @@
     <Compile Include="GUI\frm_Ejercicio8GUI.Designer.cs">
       <DependentUpon>frm_Ejercicio8GUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frm_Ejercicio9GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio9GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio9GUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frm_SalarioTrabajadorGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio8GUI.resx">
       <DependentUpon>frm_Ejercicio8GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio9GUI.resx">
+      <DependentUpon>frm_Ejercicio9GUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_SalarioTrabajadorGUI.resx">
       <DependentUpon>frm_SalarioTrabajadorGUI.cs</DependentUpon>
@@ -216,6 +226,162 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Articulos\A010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\1_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\1_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\2_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\2_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\3_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\3_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\3_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\4_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\4_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\4_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\4_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\5_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\5_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\5_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\5_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\6_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\6_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\6_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\6_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\7_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\7_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\7_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\7_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\8_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\8_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\8_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\8_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\9_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\9_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\9_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\9_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\10_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\10_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\10_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\10_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\11_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\11_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\11_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\11_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\12_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\12_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\12_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\12_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\13_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\13_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\13_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poker\13_4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

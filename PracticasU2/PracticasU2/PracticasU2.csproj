@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="BO\CartaBO.cs" />
     <Compile Include="BO\Ejercicio10BO.cs" />
+    <Compile Include="BO\Ejercicio11BO.cs" />
     <Compile Include="BO\Ejercicio2BO.cs" />
     <Compile Include="BO\Ejercicio3BO.cs" />
     <Compile Include="BO\Ejercicio4BO.cs" />
@@ -67,6 +68,18 @@
     </Compile>
     <Compile Include="GUI\frm_Ejercicio10GUI.Designer.cs">
       <DependentUpon>frm_Ejercicio10GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio11GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio11GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio11GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio12GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio12GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio12GUI.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frm_Ejercicio2GUI.cs">
       <SubType>Form</SubType>
@@ -129,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio10GUI.resx">
       <DependentUpon>frm_Ejercicio10GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio11GUI.resx">
+      <DependentUpon>frm_Ejercicio11GUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio2GUI.resx">
       <DependentUpon>frm_Ejercicio2GUI.cs</DependentUpon>

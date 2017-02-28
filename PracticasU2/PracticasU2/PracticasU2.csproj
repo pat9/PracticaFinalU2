@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BO\CartaBO.cs" />
+    <Compile Include="BO\Ejercicio10BO.cs" />
     <Compile Include="BO\Ejercicio2BO.cs" />
     <Compile Include="BO\Ejercicio3BO.cs" />
     <Compile Include="BO\Ejercicio4BO.cs" />
@@ -196,9 +197,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Dados\Dado6.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DO%28C%29.wav" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Articulos\A001.jpg" />
@@ -382,6 +380,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Poker\13_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\DO.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\DOS.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\FA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\FAS.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\LA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\MI.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\RE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\RES.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\SI.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\SIS.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\SOL.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas\SOLS.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

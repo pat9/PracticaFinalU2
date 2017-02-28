@@ -136,9 +136,6 @@
   <data name="Dado6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dados\Dado6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DO_C_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DO(C).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="A001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Articulos\A001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -321,5 +318,41 @@
   </data>
   <data name="_9_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Poker\9_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\DO.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\DOS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\FA.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\FAS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\LA.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\MI.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\RE.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\RES.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\SI.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\SIS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SOL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\SOL.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SOLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas\SOLS.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

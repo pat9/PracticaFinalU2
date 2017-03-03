@@ -16,5 +16,15 @@ namespace PracticasU2.GUI
         {
             InitializeComponent();
         }
+
+        private void btn_Transformar_Click(object sender, EventArgs e)
+        {
+            string b = txt_Cantidad.Text;
+            for(int c = txt_Cantidad.TextLength-1; c>=0; c--)
+            {
+               string a = txt_Cantidad.Text.Substring(c,1);
+                MessageBox.Show(c.ToString(a));
+            }
+        }
     }
 }

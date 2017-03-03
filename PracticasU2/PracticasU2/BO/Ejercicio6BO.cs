@@ -16,7 +16,6 @@ namespace PracticasU2.BO
         private int dado1;
         private int dado2;
         private int total;
-        private Image[] imagenes = {Resources.Dado1 , Resources.Dado1, Resources.Dado2, Resources.Dado3, Resources.Dado4, Resources.Dado5, Resources.Dado6};
         private Image DadoImg;
 
         public int NumeroJuego

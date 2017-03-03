@@ -7,22 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PracticasU2.BO;
 
-
-namespace PracticasU2
+namespace PracticasU2.GUI
 {
-    public partial class Form1 : Form
+    public partial class frm_Ejercicio16GUI : Form
     {
-        public Form1()
+        Ejercicio16BO E16 = new Ejercicio16BO();
+        public frm_Ejercicio16GUI()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btn_Move_Click(object sender, EventArgs e)
         {
-            Random d = new Random();
-            MessageBox.Show( d.Next(1, 5).ToString());
-
+            E16.MoverSeleccion(this);
         }
     }
 }

@@ -13,7 +13,7 @@ namespace PracticasU2.GUI
 {
     public partial class frm_Ejercicio9GUI : Form
     {
-        CartaBO Carta = new CartaBO();
+        Ejercicio9BO Carta = new Ejercicio9BO();
 
         public frm_Ejercicio9GUI()
         {

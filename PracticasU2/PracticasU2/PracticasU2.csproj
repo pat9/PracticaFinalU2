@@ -46,22 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BO\CartaBO.cs" />
+    <Compile Include="BO\Ejercicio21BO.cs" />
+    <Compile Include="BO\Ejercicio9BO.cs" />
     <Compile Include="BO\Ejercicio10BO.cs" />
     <Compile Include="BO\Ejercicio11BO.cs" />
+    <Compile Include="BO\Ejercicio14BO.cs" />
+    <Compile Include="BO\Ejercicio16BO.cs" />
+    <Compile Include="BO\Ejercicio18BO.cs" />
+    <Compile Include="BO\Ejercicio19BO.cs" />
     <Compile Include="BO\Ejercicio2BO.cs" />
     <Compile Include="BO\Ejercicio3BO.cs" />
     <Compile Include="BO\Ejercicio4BO.cs" />
     <Compile Include="BO\Ejercicio6BO.cs" />
     <Compile Include="BO\Ejercicio7BO.cs" />
     <Compile Include="BO\Ejercicio8BO.cs" />
-    <Compile Include="BO\Ejercicio9BO.cs" />
     <Compile Include="BO\SalarioTrabjadorBO.cs" />
-    <Compile Include="GUI\Form1.cs">
+    <Compile Include="GUI\frm_DatosGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="GUI\frm_DatosGUI.Designer.cs">
+      <DependentUpon>frm_DatosGUI.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frm_Ejercicio10GUI.cs">
       <SubType>Form</SubType>
@@ -80,6 +84,48 @@
     </Compile>
     <Compile Include="GUI\frm_Ejercicio12GUI.Designer.cs">
       <DependentUpon>frm_Ejercicio12GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio14GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio14GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio14GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio16GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio16GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio16GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio18GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio18GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio18GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio19GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio19GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio19GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio1GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio1GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio1GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio21GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio21GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio21GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio28GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_Ejercicio28GUI.Designer.cs">
+      <DependentUpon>frm_Ejercicio28GUI.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frm_Ejercicio2GUI.cs">
       <SubType>Form</SubType>
@@ -129,22 +175,40 @@
     <Compile Include="GUI\frm_Ejercicio9GUI.Designer.cs">
       <DependentUpon>frm_Ejercicio9GUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\frm_SalarioTrabajadorGUI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\frm_SalarioTrabajadorGUI.Designer.cs">
-      <DependentUpon>frm_SalarioTrabajadorGUI.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GUI\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\frm_DatosGUI.resx">
+      <DependentUpon>frm_DatosGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio10GUI.resx">
       <DependentUpon>frm_Ejercicio10GUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio11GUI.resx">
       <DependentUpon>frm_Ejercicio11GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio12GUI.resx">
+      <DependentUpon>frm_Ejercicio12GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio14GUI.resx">
+      <DependentUpon>frm_Ejercicio14GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio16GUI.resx">
+      <DependentUpon>frm_Ejercicio16GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio18GUI.resx">
+      <DependentUpon>frm_Ejercicio18GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio19GUI.resx">
+      <DependentUpon>frm_Ejercicio19GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio1GUI.resx">
+      <DependentUpon>frm_Ejercicio1GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio21GUI.resx">
+      <DependentUpon>frm_Ejercicio21GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_Ejercicio28GUI.resx">
+      <DependentUpon>frm_Ejercicio28GUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio2GUI.resx">
       <DependentUpon>frm_Ejercicio2GUI.cs</DependentUpon>
@@ -169,9 +233,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_Ejercicio9GUI.resx">
       <DependentUpon>frm_Ejercicio9GUI.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\frm_SalarioTrabajadorGUI.resx">
-      <DependentUpon>frm_SalarioTrabajadorGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

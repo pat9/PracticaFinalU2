@@ -11,10 +11,10 @@ using PracticasU2.BO;
 
 namespace PracticasU2.GUI
 {
-    public partial class frm_SalarioTrabajadorGUI : Form
+    public partial class frm_Ejercicio1GUI : Form
     {
         SalarioTrabjadorBO Trabajador = new SalarioTrabjadorBO();
-        public frm_SalarioTrabajadorGUI()
+        public frm_Ejercicio1GUI()
         {
             InitializeComponent();
         }

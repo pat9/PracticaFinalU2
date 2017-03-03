@@ -1,6 +1,6 @@
 ﻿namespace PracticasU2.GUI
 {
-    partial class frm_SalarioTrabajadorGUI
+    partial class frm_Ejercicio1GUI
     {
         /// <summary>
         /// Required designer variable.
@@ -164,7 +164,7 @@
             this.lbl_SignoPeso.TabIndex = 8;
             this.lbl_SignoPeso.Text = "$";
             // 
-            // frm_SalarioTrabajadorGUI
+            // frm_Ejercicio1GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,7 +178,10 @@
             this.Controls.Add(this.txt_SueldoMensual);
             this.Controls.Add(this.lbl_Incentivo);
             this.Controls.Add(this.lbl_SueldoMen);
-            this.Name = "frm_SalarioTrabajadorGUI";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "frm_Ejercicio1GUI";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio 1";
             this.grb_Bonificacion.ResumeLayout(false);
             this.grb_Bonificacion.PerformLayout();
